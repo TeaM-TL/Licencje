@@ -1,0 +1,2 @@
+# Licencje
+Manager licencji
