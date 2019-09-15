@@ -1,0 +1,50 @@
+# $Id: Changelog 24 2014-01-13 13:13:19Z tlu $
+# History:
+# 2007.03.11 TLu r. 1.0  first release
+# 2007.03.25 TLu r. 1.1.0 replace keys works
+# 2007.06.04 TLu r. 1.2.0 output via TeX
+# 2007.06.08 TLu r. 1.2.4 improved list of guarantee, export ELCAD_ID
+# 2007.06.08 TLu r. 1.2.5 improved SQL query during add key into customer
+# 2007.07.19 TLu r. 1.2.6 improved import of flying licenses
+# 2007.08.08 TLu r. 1.2.7 improved statistics
+# 2007.12.21 TLu r. 1.2.9 remove license number
+# 2008.01.10 TLu r. 1.2.10 tile0.8.2, msgdialog instead fsdialog
+# 2008.02.13 TLu r. 1.2.11 added HASP and NetHASP type of dongles
+# 2008.02.17 TLu r. 1.2.13 improved import license
+# 2008.03.17 TLu r. 1.2.14 added paned windows
+# 2008.03.19 TLu r. 1.2.15 bug fix (remove ttk::messageBox)
+# 2008.04.17 TLu r. 1.2.16 list terminal licenses
+# 2008.05.16 TLu r. 1.2.17 better queries in reloadCustomerProductsList
+# 2008.06.09 TLu r. 1.2.18 run on Linux!XS
+# 2008.06.10 TLu r. 1.2.19 work replace key,improved statistics
+# 2008.06.11 TLu r. 1.3.0 import/export c2v file as blob object
+# 2008.07.07 TLu r. 1.4.0 added customer sheet
+# 2008.07.15 TLu r. 1.4.1 added question and close a database on exit
+# 2008.08.18 TLu r. 1.4.2 TeXing under Linux
+# 2008.08.18 TLu r. 1.4.3 cosmetics
+# 2008.12.21 TLu r. 1.5.0 update libs, added find of customers and keys, list customers with terminal licenses
+# 2009.01.19 TLu r. 1.5.1 almost improved a key filter
+# 2009.01.23 TLu r. 1.5.2 added Description in list of hardlock
+# 2009.02.15 TLu r. 1.5.3 improved SQL query, customersheet
+# 2009.04.05 TLu r. 1.5.4 added first info about maintenance
+# 2009.04.15 TLu r. 1.5.5 add maintenance info into statistics
+# 2009.05.09 TLu r. 1.5.6 SQLite 3.6.14
+# 2009.05.09 TLu r. 1.5.7 SQLite 3.6.14.2, linux-x86_64, bugfix
+# 2009.06.19 TLu r. 1.5.8 fullpaned all frame
+# 2009.07.19 TLu r. 1.5.9 add keyboard binding
+# 2009.08.01 TLu r. 1.6.0 add maintenance
+# 2010.06.13 TLu r. 1.6.1 autofinding Acrobat Reader
+# 2010.07.31 TLu r. 1.6.2 header cosmetics
+# 2010.08.03 TLu r. 1.6.3 customer no in license
+# 2011.02.24 TLu r. 1.6.4 updates: SQLite, Tcl/Tk, libs, Win64
+# 2011.03.19 TLu r. 1.6.5 export customer list in label friendly format with multi user
+# 2011.03.19 TLu r. 1.6.6 update existed licenses numbers 
+# 2011.04.11 TLu r. 1.6.7 new TXT file format
+# 2011.06.23 TLu r. 1.6.8 bugfix updating licenses
+# 2011.06.26 TLu r. 1.6.9 all windows are scalable (paned)
+# 2011.07.01 TLu r. 1.6.10 bugfix importing license
+# 2012.10.13 TLu r. 1.6.11 updated: tclkit, SQLite, wcb, mentry, tablelist, ctext
+# 2013.01.26 TLu r. 1.6.12 zoomed window, updated: tclkit 8.6.0, SQLite, tablelist 5.7, sdx.kit
+# 2014.01.03 TLu r. 1.6.13 improved import txt files, updated SQLite, tablelist 5.10
+# 2014.01.03 TLu r. 1.6.14 initial focus for search field
+

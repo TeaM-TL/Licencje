@@ -1,0 +1,15 @@
+## 2007-2010 Tomasz Luczak tlu@temertech.com
+# $Id: Rules 14 2013-01-26 12:58:02Z tlu $
+############################
+Podstawowe zasady pisania aplikacji:
+----------------
+1. koñce wierszy: LF
+2. kod GUI nie zawiera zapytañ
+3. wszystkie zapytania s¹ realizowane przez procedury
+4. ka¿da zak³adka i okno toplevel s¹ oddzielnymi plikami
+5. procedury s¹ w plikach proc*.tcl zale¿nie od przeznaczenia
+6. GUI s¹ w plikach gui*.tcl
+7. okna toplevel s¹ w plikach w*.tcl
+8. do okien przekazywaæ Id rekordu, procedurom obs³ugi okien (add, modify, itd.), 
+    to powinno wystarczyæ. Jedyne zmienne globalne to db i Ÿród³o okna.
+9. id rekordu umieszczony jest w ukrytej kolumnie zwykle na pozycji 0

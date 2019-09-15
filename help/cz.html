@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Manager</title>
+<meta http-equiv=Content-type CONTENT="text/html; charset=utf-8">
+</head>
+.font Helvetica
+.fontsize 10
+.forecolor black
+.backcolor #ffffd2
+.linkcolor #006800
+.buttons "back forw sep stop sep index sep find search sep inc dec"
+.h_topics .*
+.h_ignore <h4.*
+<body>
+<h2>1. Menu</h2>
+In program, the main menu was replaced with contex menu, that is available after pressing the right mouse button. The menu content depends on the location of the mouse button pressing.
+<h2>2. Hardlocks and flying licenses</h2>
+The window is divided into upper table (main) and lower table, where are displayed license numbers for selected key number or HostID.
+<h4>Upper table -- list of keys</h4>
+The upper table contains the list of keys and flying licenses HostID. 
+After choosing the key or HostID number you can switch to the main client table and check all the keys and licenses.<br>
+Available functions in the table:
+<ul>
+<li>Adding a new key/ HostID number,</li>
+<li>Editing the active key,</li>
+<li>Replacing the inactive key with the new one, e.g. while changing LPT into USB,</li>
+<li>Adding license numbers to the key,</li>
+<li>Importing key license number from text file from AUCOTEC,</li>
+<li>Displaying the license list for selected key,</li>
+<li>Generating the license list for selected key in PDF format,</li>
+<li>Generating the license list with the possibility to choose the displaying columns.</li>
+</ul>
+<h4>Lower table - list of products</h4>
+The lower table contains the licenses ascribed to the keys or hosts.<br>
+After selecting the key you can only change the active license number.
+
+<h2>3. Customers</h2>
+The upper table contains the list of clients. After selecting the client you can see in the lower tables all keys and HostID numbers that are used by this client.
+<h4>Upper table -- list of Customers</h4>
+Available functions in the table:
+<ul>
+<li>adding a new client,</li>
+<li>editing the active client,</li>
+<li>adding a key to the client,</li>
+<li>displaying the support window - not ready yet,</li>
+<li>generating the client breakdown with the possibility to choose the displaying columns,</li>
+<li>generating a customer sheet conatins keys/dongles and main products.</li>
+</ul>
+<h4>Lower table -- list of keys</h4>
+Available functions in the table:
+<ul>
+<li>Adding key to the client,</li>
+<li>Editing the active key,</li>
+<li>Deleting the client's key,</li>
+<li>Replacing key with the new one, e.g. while changing LPT into USB,</li>
+<li>Adding license numbers to the key</li>
+<li>Importing key license number from text file from AUCOTEC,</li>
+<li>Displaying the license list for selected key,</li>
+<li>Generating the license list for selected key in PDF format,
+</ul>
+<h4>Lower table -- list of keys</h4>
+Lower table contains licenses ascribed to clients or hosts.<br>
+It allows editing the active licence number. 
+<h2>4. Statistics</h2>
+Upper table contains all the licences ascribed to keys and the amount of products.<br>
+The clients, who own a selected in upper table product, are displayed in lower table.<br>
+From the table with products ascribed to clients You can switch to their main  table and there check all the licences and keys.
+
+<h2>5. Products and versions</h2>
+<h4>Upper table - products</h4>
+You must provide the product number to parse files automatically with licenses.
+<h4>Lower table -- versions</h4>
+Product versions, its dates of introduction on the market and sale termination are preserved in the lower table. 
+<h2>6. Remarks</h2>
+<h4>Database</h4>
+If the programm does not find the data base, it is setting up automatically. 
+In new data base the programme creates a necessary structure.
+<h4>Templates for PDF file</h4>
+PDF file is generating by TeX system prepared for printing. Template view can be adjusted according to special requirements.
+<h4>Folder structure and their purpose</h4>
+<ul>
+<li>help - it contains the help files in many language versions,</li>
+<li>msg - it contains the program translation,</li>
+<li>PDF - all the generated PLD files with licenses are copied to this catalogue</li>
+<li>tex - it contains TeX system for generating PDF files,</li>
+<li>TMP - it generates PDF files in TeX system, usually contains temporary files and templates</li>
+<li>TXT - it contains text files, breakdown or files with licences to import</li>
+</ul>
+<h4>Translating the program into other languages</h4>
+To translate the programme into other language you must copy en.msg file from msg catalogue named e.g. it.msg, where 2 first letters indicate language version according to POSIX.<br>
+File structure:<br>
+<tt>::msgcat::mcset en "Add" "Add"</tt><br>
+You need to translate only the last chain, as the first one is for identification. en also must be changed into e.g. it, just like the required language code.
+<h4>Struktura pliku licencji do automatycznego importu</h4>
+Exemplary file content:<br>
+<tt>E6A791BF3C4D5E95     #374  #Versionslizenz 7.3   #11591</tt><br>
+Description:<br>
+<tt>E6A791BF3C4D5E95</tt> - licence numbers have to be written from the begging of the line and ended with the space,<br>
+<tt>#374</tt> - product number - searched from the product table - has to begin with sign # and end with space,<br>
+<tt>#Versionslizenz 7.3</tt> - unimportant part<br>
+<tt>#11591</tt> - key number - compared to the selected key - has to begin with sign # and end with the end of line.<br>
+<tt>#</tt> - is a separator of fields.
+<h2>7. To do</h2>
+<ol>
+<li>Maintenance,</li>
+<li>List of expired licenses,</li>
+<li>Finding keys and customer.</li>
+</ol>
+
+<h2>8. CHangelog</h2>
+1.0 2007.03.11 TLu - manage of licenses, lists,<br>
+1.2 2007.06.04 TLu - generator of PDF file,<br>
+1.3 2008.06.11 TLu - support of HASP dongles.<br>
+1.4 2008.07.07 TLu - customer sheet.<br>
+1.5 2008.12.21 TLu - finding customer and keys, terminal license filter.<br>
+1.6 2009.08.01 TLu r. - add maintenance<br>
+$Id: cz.html 433 2010-04-03 06:53:56Z tlu $
+</body>
+</html>

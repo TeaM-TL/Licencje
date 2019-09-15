@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Menedżer licencji</title>
+<meta http-equiv="Content-type" CONTENT="text/html; charset=utf-8">
+</head>
+.font Helvetica
+.fontsize 10
+.forecolor black
+.backcolor #ffffd2
+.linkcolor #006800
+.buttons "back forw sep stop sep index sep find search sep inc dec"
+.h_topics .*
+.h_ignore <h4.*
+<body>
+<h2>1. Menu</h2>
+W programie zrezygnowano z typowego menu na rzecz menu kontekstowego dostępnego po naciśnięciu prawego klawisza myszy. Zawartość menu zależy od miejsca naciśnięcia prawego klawisza myszy.
+<h2>2. Klucze i licencje pływające</h2>
+Okno podzielone jest na tabelę górną (nadrzędną) i dolną wyświetlającą numery licencji dla zaznaczonego numeru klucza lub HostId.
+<h4>Górna tabela - lista kluczy</h4>
+Górna tabela zawiera listę kluczy oraz HostId licencji pływających.<br>
+Po wybraniu klucza lub numeru HostId można przeskoczyć do głównej tabeli klientów i zobaczyć wszystkie posiadane klucze i licencje.<br>
+Dostepne operacje na tabeli:
+<ul>
+<li>Dodawanie nowego klucza/numeru HostId,</li>
+<li>Edycja istniejącego klucza,</li>
+<li>Wyszukanie klucza po numerze,</li>
+<li>Zastąpienie klucza nowym, np. przy wymianie LPT na USB,</li>
+<li>Dodanie numerów licencji do klucza,</li>
+<li>Import numerów licencji do klucza z pliku tekstowego z AUCOTEC,</li>
+<li>Wyświetlenie zestawienia licencji dla wybranego klucza,</li>
+<li>Wygenerowanie zestawienia licencji dla danego klucza w formacie PDF,</li>
+<li>Wygenerowanie zestawienia kluczy z możliwością wyboru wyświetlanych kolumn,</li>
+<li>Wyświetlenie kluczy z terminowymi licencjami.</li>
+</ul>
+<h4>Dolna tabela - lista produktów</h4>
+Dolna tabela zawiera licencje przypisane kluczom lub hostom.<br>
+Po zaznaczeniu klucza można tylko zmieniać istniejące numery licencji.
+
+<h2>3. Klienci</h2>
+Górna tabela zawiera listę klientów. Po wybraniu klienta wyświetlane są w dolnych tabelach wszystkie klucze i numery HostId użytkowane przez klienta.<br>
+Po zaznaczeniu w lewej dolnej tabeli numeru klucza lub HostId w dolnej prawej tabeli wyświetlane są numery licencji przypisane zaznaczonemu kluczowi.
+<h4>Górna tabela - lista klientów</h4>
+Dostępne operacje na tabeli:
+<ul>
+<li>Dodawanie nowego klienta,</li>
+<li>Edycja istniejącego klienta,</li>
+<li>Dodanie klucza do klienta,</li>
+<li>Wyszukanie klienta wg nazwy,</li>
+<li>Wyświetlenie okna opieki technicznej - jeszcze nie gotowe,</li>
+<li>Wygenerowanie zestawienia klientów z możliwością wyboru wyświetlanych kolumn,</li>
+<li>Wygenerowanie arkusza klienta z listą kluczy i produktów.</li>
+</ul>
+<h4>Dolna tabela - lista kluczy</h4>
+Dostepne operacje na tabeli:
+<ul>
+<li>Dodanie klucza do klienta,</li>
+<li>Edycja istniejącego klucza,</li>
+<li>Usunięcie klucza klienta,</li>
+<li>Zastąpienie klucza nowym, np. przy wymianie LPT na USB,</li>
+<li>Dodanie numerów licencji do klucza</li>
+<li>Import numerów licencji do klucza z pliku tekstowego z AUCOTEC,</li>
+<li>Wyświetlenie zestawienia licencji dla wybranego klucza,</li>
+<li>Wygenerowanie zestawienia licencji dla danego klucza w formacie PDF</li>
+</ul>
+<h4>Dolna tabela - lista produktów</h4>
+Dolna tabela zawiera licencje przypisane kluczom lub hostom.<br>
+Pozwala na edycję istniejących numerów licencji.
+<h2>4. Statystyka</h2>
+Górna tabela zawiera wszystkie licencje przypisane kluczom oraz liczbę produktów.<br>
+Dolna tabela wyświetla klientów, którzy posiadają wybrany w górnej tabeli produkt.<br>
+Z tabeli klientów posiadającyh dany produkt można przeskoczyć do głównej tabli klientów i zobaczyć wszystkie posiadane klucze i licencje.
+
+<h2>5. Produkty i wersje</h2>
+<h4>Górna tabela - produkty</h4>
+Do automatycznego parsowania plików z licencjami wymagane jest podanie numeru produktów.
+<h4>Dolna tabela - wersje</h4>
+Tabela przechowuje wersje produktów i daty ich wprowadzenia na rynek oraz zakończenia ich sprzedaży.
+<h2>6. Uwagi</h2>
+<h4>Baza danych</h4>
+Jeśli program nie znajdzie bazy danych, to jest ona tworzona automatycznie. W nowo utworzonej bazie tworzona jest struktura bazy wymagana przez program.
+<h4>Szablon dla pliku PDF</h4>
+Plik PDF generowany jest przez system TeX specjalnie przygotowany do obsługi wydruku. Wygląd szablonu można zmieniać według własnych upodobań, a przede wszystkim wiedzy.
+<h4>Struktura i przeznaczenie katalogów</h4>
+<ul>
+<li>help - zawiera pliki pomocy w różnych wersjach językowych,</li>
+<li>msg - zawiera tłumaczenia programu,</li>
+<li>PDF - do tego katalogu kopiowane są wygenerowane pliki PLD z licencjami</li>
+<li>tex - zawiera system TeX do generowani plików PDF,</li>
+<li>TMP - przeznaczony jest dla systemu TeX do generowania plików PDF, zawiera zwykle pliki tymczasowe oraz szablon</li>
+<li>TXT - przeznaczony jest na pliki tekstowe, np. zestawienia lub pliki z licencjami do zaimportowania</li>
+</ul>
+<h4>Tłumaczenie programu na inne języki</h4>
+Należy skopiować plik en.msg znajdujący się w katalogu msg pod nazwe np. it.msg, gdzie dwie litery nazwy oznaczają wersję językową wg POSIX.<br>
+Struktura pliku:<br>
+<tt>::msgcat::mcset en "Add" "Add"</tt><br>
+W pliku należy przetłumaczyć tylko ostatni łańcuch, pierwszy służy jako identyfikator. Należy także zamienić wpis en na np. it, czyli taki sam jak kod języka docelowego.
+<h4>Struktura pliku licencji do automatycznego importu</h4>
+Przykładowa zawartość pliku:<br>
+<tt>E6A791BF3C4D5E95     #374  #Versionslizenz 7.3   #11591</tt><br>
+Wyjaśnienia:<br>
+<tt>E6A791BF3C4D5E95</tt> - numery licencji, muszą zaczynać się od początku wiersza, po których musi wystąpić spacja,<br>
+<tt>#374</tt> - numer produktu wyszukiwany z tabeli produktów, musi zaczynać się znakiem # i kończyć spacją,<br>
+<tt>#Versionslizenz 7.3</tt> - część niestotna<br>
+<tt>#11591</tt> - numer klucza, porównywany z wybranym kluczem, musi zaczynać się od znaku # i kończyć znakiem końca wiersza.<br>
+<tt>#</tt> - znak separtora pól.
+<h2>7. Do zrobienia</h2>
+<ol>
+<li>import hurtowy plików z licencjami</li>
+<li>przechowywanie plików PDF z AUCOTECU</li>
+</ol>
+
+<h2>8. Historia zmian</h2>
+1.0 2007.03.11 TLu - zarządzanie licencjami, zestawienia,<br>
+1.2 2007.06.04 TLu - generator licencji w formacie PDF,<br>
+1.3 2008.06.11 TLu - obsługa kluczy HASP.<br>
+1.4 2008.07.07 TLu - arkusz klienta.<br>
+1.5 2008.12.21 TLu - wyszukiwanie klienta i klucza, filtr licencji terminowych.<br>
+1.6 2009.08.01 - 2014.01.11 TLu r. - opieki techniczne, wszystkie okna są skalowalne, aktualizacja licencji, poprawiony import plików TXT, Windows_x64<br>
+
+$Id: pl.html 433 2010-04-03 06:53:56Z tlu $
+</body>
+</html>
