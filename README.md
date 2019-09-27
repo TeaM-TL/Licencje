@@ -14,11 +14,11 @@ License Manager for ELCAD/AUCOPLAN/Engineering Base distributor
  * easy l10n via external msg files
  * built in help (F1)
 
-![Klucze](https://raw.githubusercontent.com/TeaM-TL/Licencje/master/Licencje_1.png)
+![Klucze](https://raw.githubusercontent.com/TeaM-TL/Licencje/master/screenshots/Licencje_1.png)
 
-![Klucze](https://raw.githubusercontent.com/TeaM-TL/Licencje/master/Licencje_2.png)
+![Klucze](https://raw.githubusercontent.com/TeaM-TL/Licencje/master/screenshots/Licencje_2.png)
 
-![Klucze](https://raw.githubusercontent.com/TeaM-TL/Licencje/master/Licencje_3.png)
+![Klucze](https://raw.githubusercontent.com/TeaM-TL/Licencje/master/screenshots/Licencje_3.png)
 
 ## Requirements
  * Windows, Linux
