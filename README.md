@@ -25,9 +25,9 @@ License Manager for ELCAD/AUCOPLAN/Engineering Base distributor
  * LaTeX with TexGyre fonts for reports
 
 ## Technologies
- * Tcl/Tk with Tile/Ttk
- * many Tcl/Tk addins
- * SQLite
+ * Tcl/Tk with Tile
+ * Tcl/Tk addins: mentry, wcb, tablelist, HelpSystem
+ * SQLite3
  * starkit for wrap int single executables
 
 
