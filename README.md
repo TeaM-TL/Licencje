@@ -13,6 +13,7 @@ License Manager for ELCAD/AUCOPLAN/Engineering Base distributor
  * export nice license report
  * easy l10n via external msg files
  * built in help (F1)
+ * English, Polish and easy to localize via gettext
 
 ![Klucze](https://raw.githubusercontent.com/TeaM-TL/Licencje/master/screenshots/Licencje_1.png)
 
